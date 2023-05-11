@@ -131,21 +131,17 @@ wpLink.addEventListener('click', () => {
 
 
 const btnAmazing = document.getElementById('amazingImagesBtn');
-// const galleryFoto = document.querySelectorAll('.gallery-block-images-secret');
+const amazingFotoBlock = document.querySelectorAll('.image-wrapper-secret');
 
 btnAmazing.addEventListener('click', () => {
  
   btnAmazing.style.display = 'none';
-  
+ 
+  amazingFotoBlock.forEach(element => {
+    element.style.display = 'block';
+  });;
 
 });
-
-
-
-
-
-
-
 
 
 

@@ -660,3 +660,6 @@ padding: 30px 0;
 footer p span{
   color: #18CFAB;
 }
+.image-wrapper-secret{
+  display: none;
+}
