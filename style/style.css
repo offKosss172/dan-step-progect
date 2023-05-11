@@ -405,6 +405,9 @@ color: #18CFAB;
   flex-wrap: wrap;
   margin: 90px 0;
 }
+.Breaking-news-fotoblock a{
+  text-decoration: none;
+}
 .Breaking-news-fotoblock-card{
   width: 25%;
   display: flex;
